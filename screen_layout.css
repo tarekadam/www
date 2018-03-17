@@ -1,0 +1,151 @@
+/* CSS Document */
+*{
+	
+}
+
+html,
+body{
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.page{
+	min-height:100%;
+	padding: 0px 15% 0px 15%;
+}.page > div{
+	padding: 0px 25px 0px 25px;
+	min-height:100%;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	min-width: 480px;
+}.page > div:before{
+	content: 'CURRICULUM VITAE';
+    
+	display:block;
+    width: 100%;
+	min-width:480px;
+	text-align:right;
+	
+	z-index:0;
+	font-size: 3em;
+	color:green;
+}@media (max-width: 700px) {
+	.page{
+		padding: 0px 0px 0px 0px;
+	}
+}
+
+.page:nth-child(1){
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(0, 163, 218, 1)), color-stop(.5, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(	rgba(0, 163, 218, 1) 17%, transparent 17%, transparent);
+	background-image: -moz-linear-gradient(		rgba(0, 163, 218, 1) 17%, transparent 17%, transparent);
+	background-image: -ms-linear-gradient(		rgba(0, 163, 218, 1) 17%, transparent 17%, transparent);
+	background-image: -o-linear-gradient(		rgba(0, 163, 218, 1) 17%, transparent 17%, transparent);
+	background-image: linear-gradient(			rgba(0, 163, 218, 1) 17%, transparent 17%, transparent);
+}
+
+.page:nth-child(2){
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(0, 163, 218, 1)), color-stop(.5, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(	rgba(255, 55, 5, 1) 5%, transparent 5%, transparent);
+	background-image: -moz-linear-gradient(		rgba(255, 55, 5, 1) 5%, transparent 5%, transparent);
+	background-image: -ms-linear-gradient(		rgba(255, 55, 5, 1) 5%, transparent 5%, transparent);
+	background-image: -o-linear-gradient(		rgba(255, 55, 5, 1) 5%, transparent 5%, transparent);
+	background-image: linear-gradient(			rgba(255, 55, 5, 1) 5%, transparent 5%, transparent);
+}
+
+.page:nth-child(3){
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(0, 163, 218, 1)), color-stop(.5, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(	rgba(255, 204, 0, 1) 5%, transparent 5%, transparent);
+	background-image: -moz-linear-gradient(		rgba(255, 204, 0, 1) 5%, transparent 5%, transparent);
+	background-image: -ms-linear-gradient(		rgba(255, 204, 0, 1) 5%, transparent 5%, transparent);
+	background-image: -o-linear-gradient(		rgba(255, 204, 0, 1) 5%, transparent 5%, transparent);
+	background-image: linear-gradient(			rgba(255, 204, 0, 1) 5%, transparent 5%, transparent);
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+li:before {
+    content: "∫";
+}
+.page:nth-child(1) li:before{
+	color: #BA2303;
+}
+.page:nth-child(2) li:before{
+	color: #00A3DA;
+}
+
+
+#objective{
+	float:left;
+	width: 350px;
+}
+
+#acronyms{
+	clear:left;
+	float:left;
+}
+#objective,
+#acronyms{
+	margin-left: 25px;
+}
+
+#skills{
+	float:right;
+}
+
+#objective,
+#skills{
+	margin-top: 35px;
+}
+
+#strengths, #education{
+	float:none;
+	clear:both;
+	padding-top: 10px;
+}
+
+#education h2{
+	float:left;
+	margin-bottom:5px;
+}
+#education address{
+	margin-top:20px;
+	float:right;
+	text-transform: lowercase;
+}
+#education p{
+	position:relative;
+	top: -10px;
+	float:none;
+	clear:both;
+	color: #00A3DA;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+.page:nth-child(2) address{
+	display:block;
+	text-align:right;
+	font-size: 0.8em;
+	text-transform: lowercase;
+}
+
+.page:nth-child(2) h2{
+	position:relative;
+	top: +50px;
+}
+.page:nth-child(2) h2 + p{
+	position:relative;
+	top: +35px;
+	color:#BA2303;
+}

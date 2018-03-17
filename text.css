@@ -1,0 +1,35 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900);
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3{
+	font-weight:100;
+	margin: 5px auto 5px auto;
+}
+h1{	font-size: 24px; }
+
+h2{	font-size: 20px; }
+
+h3{	font-size: 16px; }
+
+p{	font-size: 12px; }
+
+ol{ font-size: 12px; }
+
+ul{	font-size: 12px; }
+
+li{	font-size: 12px; }
+
+a, a:active, a:link, a:visited{
+	font-size: 12px;
+}
+
+
+.page:nth-child(1) h1{
+	color: #BA2303;
+}
+
+.page:nth-child(2) h2{
+	color: #00A3DA;
+}
