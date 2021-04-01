@@ -16,13 +16,8 @@
 	font-size: 0.8em;
 	color:#ffffff;
 }
+
 .contactDetails:nth-of-type(2) > section:before{
-	content:'@MB ';
-}
-.contactDetails:nth-of-type(3) > section:before{
-	content:'@BC ';
-}
-.contactDetails:nth-of-type(4) > section:before{
 	content:'@CR ';
 }
 .contactDetails:nth-of-type(2) > section:before,
