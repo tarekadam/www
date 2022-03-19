@@ -1,35 +1,41 @@
-/* CSS Document */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900);
-body{
-	font-family: 'Source Sans Pro', sans-serif;
-}
-h1,h2,h3{
-	font-weight:100;
-	margin: 5px auto 5px auto;
-}
-h1{	font-size: 24px; }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
-h2{	font-size: 20px; }
-
-h3{	font-size: 16px; }
-
-p{	font-size: 12px; }
-
-ol{ font-size: 12px; }
-
-ul{	font-size: 12px; }
-
-li{	font-size: 12px; }
-
-a, a:active, a:link, a:visited{
-	font-size: 12px;
+body {
+    font-family: "Roboto", "Lucida Grande", "Lucida", sans-serif;
+    color: #666666;
 }
 
+h1 {
+    font-size: 1.5em;
+    margin: 0 auto 2.5em;
+    font-weight: 300;
+    letter-spacing: 10px;
 
-.page:nth-child(1) h1{
-	color: #BA2303;
+    background-color: #efefef;
+
+    padding-left: 10px;
 }
 
-.page:nth-child(2) h2{
-	color: #00A3DA;
+h2{
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: 10px;
+
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+}
+
+p{
+    line-height: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color: #719fd1;
+}
+
+code {
+    font-family: Consolas, Monaco, monospace;
+    font-size: 85%;
+    font-weight: 400;
 }
